@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:admin="http://webns.net/mvcb/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+	<channel>
+<title>&#x80e1;&#x70b3;&#x57ce;&#x7684;&#x7b14;&#x8bb0;</title><link>https://bingcheng.openmc.cn/notes/index.html</link><description>&#x5173;&#x4e8e;&#x7f16;&#x7a0b;&#xff0c;&#x5173;&#x4e8e;&#x673a;&#x5668;&#x5b66;&#x4e60;</description><dc:language>zh-cn</dc:language><language>zh-cn</language><dc:creator>胡炳城</dc:creator><dc:rights>Copyright 2018-2020&#x2c; &#x80e1;&#x70b3;&#x57ce;</dc:rights><dc:date>2020-09-27T08:34:33+08:00</dc:date><admin:generatorAgent rdf:resource="http://www.realmacsoftware.com/" />
+<sy:updatePeriod>hourly</sy:updatePeriod>
+<sy:updateFrequency>1</sy:updateFrequency>
+<sy:updateBase>2000-01-01T12:00+00:00</sy:updateBase>
+<lastBuildDate>Sun, 27 Sep 2020 09:03:56 +0800</lastBuildDate><item><title>&#x6d4b;&#x8bd5;&#x7b14;&#x8bb0;</title><dc:creator>胡炳城</dc:creator><dc:subject>&#x7b14;&#x8bb0;</dc:subject><dc:date>2020-09-27T08:34:33+08:00</dc:date><link>https://bingcheng.openmc.cn/notes/zh/files/test-note.html#unique-entry-id-0</link><guid isPermaLink="true">https://bingcheng.openmc.cn/notes/zh/files/test-note.html#unique-entry-id-0</guid><content:encoded><![CDATA[这是一条测试笔记
+
+
+随便写点什么]]></content:encoded></item></channel>
+</rss>
