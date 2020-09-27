@@ -18,29 +18,29 @@
 <link rel="icon" type="image/png" href="https://bingcheng.openmc.cn/notes/resources/favicon_large.png" sizes="64x64" />
 
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="Bingcheng HU's notes about coding">
-	<meta name="twitter:description" content="For Machine Learning, there are always many imporatant ideas and coding methods that need to be aweared.">
+	<meta name="twitter:title" content="Bias regularization">
+	<meta name="twitter:description" content="It is not common to regularize the bias parameters because they do not interact with the data through multiplicative interactions, and therefore do not have the interpretation of controlling the influence of a data dimension on the final objective.">
 	<meta name="twitter:image" content="https://bingcheng.openmc.cn/notes/resources/photo-1470790376778-a9fbc86d70e2.jpg">
-	<meta name="twitter:url" content="https://bingcheng.openmc.cn/notes/index.html">
+	<meta name="twitter:url" content="https:/bingcheng.openmc.cn/notes/index_files/Bias-regularization.html">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="Notes">
-	<meta property="og:title" content="Bingcheng HU's notes about coding">
-	<meta property="og:description" content="For Machine Learning, there are always many imporatant ideas and coding methods that need to be aweared.">
+	<meta property="og:title" content="Bias regularization">
+	<meta property="og:description" content="It is not common to regularize the bias parameters because they do not interact with the data through multiplicative interactions, and therefore do not have the interpretation of controlling the influence of a data dimension on the final objective.">
 	<meta property="og:image" content="https://bingcheng.openmc.cn/notes/resources/photo-1470790376778-a9fbc86d70e2.jpg">
-	<meta property="og:url" content="https://bingcheng.openmc.cn/notes/index.html"><!-- User defined head content such as meta tags and encoding options -->
-	<title>Notes | JAZZ UP</title>
+	<meta property="og:url" content="https:/bingcheng.openmc.cn/notes/index_files/Bias-regularization.html"><!-- User defined head content such as meta tags and encoding options -->
+	<title>Bias regularization | Notes | JAZZ UP</title>
 	
-	<link rel="stylesheet" type="text/css" media="all" href="rw_common/themes/lander/consolidated-0.css?rwcache=622862307" />
+	<link rel="stylesheet" type="text/css" media="all" href="../rw_common/themes/lander/consolidated-0.css?rwcache=622862307" />
 		
 	
 	
 	<!-- Style variations - these are set up in the theme.plist -->
 	<!-- User defined styles -->
 			
-	 <script type="text/javascript" src="rw_common/themes/lander/js/jquery.min.js?rwcache=622862307"></script>	  
-     <script type="text/javascript" src="rw_common/themes/lander/javascript.js?rwcache=622862307"></script>
-	 <script type="text/javascript" src="rw_common/themes/lander/js/box.js?rwcache=622862307"></script>
-	 <script type="text/javascript" src="rw_common/themes/lander/js/multithemes.js?rwcache=622862307"></script> 
+	 <script type="text/javascript" src="../rw_common/themes/lander/js/jquery.min.js?rwcache=622862307"></script>	  
+     <script type="text/javascript" src="../rw_common/themes/lander/javascript.js?rwcache=622862307"></script>
+	 <script type="text/javascript" src="../rw_common/themes/lander/js/box.js?rwcache=622862307"></script>
+	 <script type="text/javascript" src="../rw_common/themes/lander/js/multithemes.js?rwcache=622862307"></script> 
 	 
 	<!-- User defined javascript -->
 	<link rel="alternate" type="application/rss+xml" title="Bingcheng's Notes" href="https://bingcheng.openmc.cn/notes/index_files/feed.xml" />
@@ -63,7 +63,7 @@
   <div id="accordion"><!-- BOX-->	 
      <div id="navcontainer_box">
      <div id="navcontainer_opacity"></div>
-       <div id="navcontainer"><ul><li><a href="./" rel="" id="current">Notes</a></li><li><a href="zh/" rel="">笔记</a></li><li><a href="https://bingcheng.openmc.cn/" rel="">Home</a></li><li><a href="https://bingcheng.openmc.cn/about/" rel="">RÉSUMÉ</a></li></ul></div>
+       <div id="navcontainer"><ul><li><a href="../" rel="" id="current">Notes</a></li><li><a href="../zh/" rel="">笔记</a></li><li><a href="https://bingcheng.openmc.cn/" rel="">Home</a></li><li><a href="https://bingcheng.openmc.cn/about/" rel="">RÉSUMÉ</a></li></ul></div>
       </div>
     </div><!-- BOX END--> 
    <div class="clearer"></div>    
@@ -71,7 +71,7 @@
    <div id="rw-banner-image"> </div>    
     <div id="banner_grid"></div>        
       <div id="pageHeader"><!-- Start page header -->
-     <div id="logo"><a href="https://bingcheng.openmc.cn/notes/"><img src="rw_common/images/下载 (3).svg" alt="Bingchneg's Notes"/></a></div>
+     <div id="logo"><a href="https://bingcheng.openmc.cn/notes/"><img src="../rw_common/images/下载 (3).svg" alt="Bingchneg's Notes"/></a></div>
 	  <div id="fade_titles">	
 	   <h1>Notes</h1>
 	   <h2>Changing the world, one note at a time&hellip;</h2></div>
@@ -86,14 +86,19 @@
  <div id="global_width">	 	
 	 <div id="contentContainer"><!-- Start main content wrapper -->
 		 <div id="content"><!-- Start content -->
-		   <div id="unique-entry-id-0" class="blog-entry"><h1 class="blog-entry-title"><a href="index_files/Bias-regularization.html" class="blog-permalink">Bias regularization</a></h1><div class="blog-entry-date">27/09/20 08:32 </div><div class="blog-entry-body">It is not common to regularize the bias parameters because they do not interact with the data through multiplicative interactions, and therefore do not have the interpretation of controlling the influence of a data dimension on the final objective.<span class="blog-read-more"><a href="index_files/Bias-regularization.html"> Read More…</a></span></div></div>
+		   	
+	<div class="blog-archive-entries-wrapper">
+		<div id="unique-entry-id-0" class="blog-entry"><h1 class="blog-entry-title">Bias regularization</h1><div class="blog-entry-date">27/09/20 08:32 </div><div class="blog-entry-summary">It is not common to regularize the bias parameters because they do not interact with the data through multiplicative interactions, and therefore do not have the interpretation of controlling the influence of a data dimension on the final objective.</div><div class="blog-entry-body"><span style="font:16px PingFangSC-Light; color:#000000;">Source: cs231n  </span><span style="font-size:16px; color:#000000;"><br /><br />As we already mentioned in the Linear Classification section, it is not common to regularize the bias parameters because they do not interact with the data through multiplicative interactions, and therefore do not have the interpretation of controlling the influence of a data dimension on the final objective. However, in practical applications (and with proper data preprocessing) regularizing the bias rarely leads to significantly worse performance. This is likely because there are very few bias terms compared to all the weights, so the classifier can &ldquo;afford to&rdquo; use the biases if it needs them to obtain a better data loss.</span></div></div>
+	</div>
+	
+
 		 </div><!-- End content -->
 	 </div><!-- End main content wrapper -->
   <div id="sidebarBackground"></div>
 <div id="sidebarContainer"><!-- Start Sidebar wrapper -->
   <div class="sideHeader"></div><!-- Sidebar header -->
 	 <div id="sidebar"><!-- Start sidebar content -->
-	 <div id="blog-categories"></div><div id="blog-archives"><a class="blog-archive-link-enabled" href="index_files/archive-september-2020.html">September 2020</a><br /></div><div id="blog-rss-feeds"><a class="blog-rss-link" href="index_files/feed.xml" rel="alternate" type="application/rss+xml" title="Bingcheng's Notes">Bingcheng's Notes</a><br /></div> <!-- sidebar content such as the blog archive links -->
+	 <div id="blog-categories"></div><div id="blog-archives"><a class="blog-archive-link-enabled" href="archive-september-2020.html">September 2020</a><br /></div><div id="blog-rss-feeds"><a class="blog-rss-link" href="feed.xml" rel="alternate" type="application/rss+xml" title="Bingcheng's Notes">Bingcheng's Notes</a><br /></div> <!-- sidebar content such as the blog archive links -->
 	 <div class="clearer"></div>
 		<!-- sidebar content you enter in the page inspector -->		
      </div><!-- End sidebar content -->
