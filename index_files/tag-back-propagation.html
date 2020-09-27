@@ -18,17 +18,17 @@
 <link rel="icon" type="image/png" href="https://bingcheng.openmc.cn/notes/resources/favicon_large.png" sizes="64x64" />
 
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="Archives for September 2020 | Notes | JAZZ UP">
+	<meta name="twitter:title" content="back propagation | Notes | JAZZ UP">
 	<meta name="twitter:description" content="For Machine Learning, there are always many imporatant ideas and coding methods that need to be aweared.">
 	<meta name="twitter:image" content="https://bingcheng.openmc.cn/notes/resources/photo-1470790376778-a9fbc86d70e2.jpg">
-	<meta name="twitter:url" content="https:/bingcheng.openmc.cn/notes/index_files/archive-september-2020.html">
+	<meta name="twitter:url" content="https:/bingcheng.openmc.cn/notes/index_files/tag-back-propagation.html">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="Notes">
-	<meta property="og:title" content="Archives for September 2020 | Notes | JAZZ UP">
+	<meta property="og:title" content="back propagation | Notes | JAZZ UP">
 	<meta property="og:description" content="For Machine Learning, there are always many imporatant ideas and coding methods that need to be aweared.">
 	<meta property="og:image" content="https://bingcheng.openmc.cn/notes/resources/photo-1470790376778-a9fbc86d70e2.jpg">
-	<meta property="og:url" content="https:/bingcheng.openmc.cn/notes/index_files/archive-september-2020.html"><!-- User defined head content such as meta tags and encoding options -->
-	<title>Archives for September 2020 | Notes | JAZZ UP</title>
+	<meta property="og:url" content="https:/bingcheng.openmc.cn/notes/index_files/tag-back-propagation.html"><!-- User defined head content such as meta tags and encoding options -->
+	<title>back propagation | Notes | JAZZ UP</title>
 	
 	<link rel="stylesheet" type="text/css" media="all" href="../rw_common/themes/lander/consolidated-0.css?rwcache=622872752" />
 		
@@ -88,15 +88,16 @@
 		 <div id="content"><!-- Start content -->
 		   	
 	<div class="blog-archive-headings-wrapper">
-		<div class="blog-archive-month">September 2020</div>
+		<div class="blog-archive-month">back propagation</div>
 		<div class="blog-archive-link"><a href="../index.html">Notes | JAZZ UP</a></div>
 	</div>
 	
 	<div class="blog-archive-entries-wrapper">
-		<div id="unique-entry-id-2" class="blog-entry"><h1 class="blog-entry-title"><a href="4a7dc00e96993d57c83ff6a530abff37-2.html" class="blog-permalink">Caution! max(0, -) in back prop</a></h1><div class="blog-entry-date">27/09/20 11:49 Filed in: <span class="blog-entry-category"><a href="category-machine-learning.html">Machine Learning</a></span></div><div class="blog-entry-body"><span style="font-size:16px; color:#000000;">For ReLU gate, we use </span><code>max(0, -)</code><span style="font-size:16px; color:#000000;"> to get our data all positive and will not cause saturation, which is very convenient to use.However, in back propagation, there is one point that could easily be ignored: we should set </span><code>dx[x<=0] = 0</code><span style="font-size:16px; color:#000000;"> instead of </span><code>dx[x<0] = 0</code><span style="font-size:16px; color:#000000;">!</span><span class="blog-read-more"><a href="4a7dc00e96993d57c83ff6a530abff37-2.html"> Read More…</a></span><p class="blog-entry-tags">Tags: <a href="tag-back-propagation.html" title="back propagation" rel="tag">back propagation</a>, <a href="tag-relu.html" title="ReLU" rel="tag">ReLU</a></p></div></div><div id="unique-entry-id-0" class="blog-entry"><h1 class="blog-entry-title"><a href="Bias-regularization.html" class="blog-permalink">Bias regularization</a></h1><div class="blog-entry-date">27/09/20 08:32 Filed in: <span class="blog-entry-category"><a href="category-machine-learning.html">Machine Learning</a></span></div><div class="blog-entry-body">It is not common to regularize the bias parameters because they do not interact with the data through multiplicative interactions, and therefore do not have the interpretation of controlling the influence of a data dimension on the final objective.<span class="blog-read-more"><a href="Bias-regularization.html"> Read More…</a></span><p class="blog-entry-tags">Tags: <a href="tag-regularization.html" title="regularization" rel="tag">regularization</a></p></div></div>
+		<div id="unique-entry-id-2" class="blog-entry"><h1 class="blog-entry-title"><a href="4a7dc00e96993d57c83ff6a530abff37-2.html" class="blog-permalink">Caution! max(0, -) in back prop</a></h1><div class="blog-entry-date">27/09/20 11:49 Filed in: <span class="blog-entry-category"><a href="category-machine-learning.html">Machine Learning</a></span></div><div class="blog-entry-body"><span style="font-size:16px; color:#000000;">For ReLU gate, we use </span><code>max(0, -)</code><span style="font-size:16px; color:#000000;"> to get our data all positive and will not cause saturation, which is very convenient to use.However, in back propagation, there is one point that could easily be ignored: we should set </span><code>dx[x<=0] = 0</code><span style="font-size:16px; color:#000000;"> instead of </span><code>dx[x<0] = 0</code><span style="font-size:16px; color:#000000;">!</span><span class="blog-read-more"><a href="4a7dc00e96993d57c83ff6a530abff37-2.html"> Read More…</a></span><p class="blog-entry-tags">Tags: <a href="tag-back-propagation.html" title="back propagation" rel="tag">back propagation</a>, <a href="tag-relu.html" title="ReLU" rel="tag">ReLU</a></p></div></div>
 	</div>
 	
 
+	
 		 </div><!-- End content -->
 	 </div><!-- End main content wrapper -->
   <div id="sidebarBackground"></div>

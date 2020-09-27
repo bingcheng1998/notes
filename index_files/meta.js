@@ -56,7 +56,7 @@
 	};
  
 	// Object containing all website meta info
-	var websiteMeta = {"category-humor.html":"A list of posts in category &ldquo;Humor&rdquo;","category-personal.html":"A list of posts in category &ldquo;Personal&rdquo;","archive-september-2020.html":"Archives for September 2020","category-work.html":"A list of posts in category &ldquo;Work&rdquo;","category-apple.html":"A list of posts in category &ldquo;Apple&rdquo;","Bias-regularization.html":"It is not common to regularize the bias parameters because they do not interact with the data through multiplicative interactions, and therefore do no"};
+	var websiteMeta = {"category-work.html":"A list of posts in category &ldquo;Work&rdquo;","category-humor.html":"A list of posts in category &ldquo;Humor&rdquo;","archive-september-2020.html":"Archives for September 2020","4a7dc00e96993d57c83ff6a530abff37-2.html":"For ReLU gate, we use max(0, -) to get our data all positive and will not cause saturation, which is very convenient to use.However, in back propagati","category-machine-learning.html":"A list of posts in category &ldquo;Machine Learning&rdquo;","tag-regularization.html":"Posts tagged &ldquo;regularization&rdquo;","category-apple.html":"A list of posts in category &ldquo;Apple&rdquo;","category-personal.html":"A list of posts in category &ldquo;Personal&rdquo;","tag-back-propagation.html":"Posts tagged &ldquo;back propagation&rdquo;","tag-relu.html":"Posts tagged &ldquo;ReLU&rdquo;","Bias-regularization.html":"It is not common to regularize the bias parameters because they do not interact with the data through multiplicative interactions, and therefore do no"};
  
 	// pageId must match the key in websiteMeta object
 	var url = window.location.pathname;

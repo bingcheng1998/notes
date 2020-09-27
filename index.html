@@ -30,17 +30,17 @@
 	<meta property="og:url" content="https://bingcheng.openmc.cn/notes/index.html"><!-- User defined head content such as meta tags and encoding options -->
 	<title>Notes | JAZZ UP</title>
 	
-	<link rel="stylesheet" type="text/css" media="all" href="rw_common/themes/lander/consolidated-0.css?rwcache=622866009" />
+	<link rel="stylesheet" type="text/css" media="all" href="rw_common/themes/lander/consolidated-0.css?rwcache=622872752" />
 		
 	
 	
 	<!-- Style variations - these are set up in the theme.plist -->
 	<!-- User defined styles -->
 			
-	 <script type="text/javascript" src="rw_common/themes/lander/js/jquery.min.js?rwcache=622866009"></script>	  
-     <script type="text/javascript" src="rw_common/themes/lander/javascript.js?rwcache=622866009"></script>
-	 <script type="text/javascript" src="rw_common/themes/lander/js/box.js?rwcache=622866009"></script>
-	 <script type="text/javascript" src="rw_common/themes/lander/js/multithemes.js?rwcache=622866009"></script> 
+	 <script type="text/javascript" src="rw_common/themes/lander/js/jquery.min.js?rwcache=622872752"></script>	  
+     <script type="text/javascript" src="rw_common/themes/lander/javascript.js?rwcache=622872752"></script>
+	 <script type="text/javascript" src="rw_common/themes/lander/js/box.js?rwcache=622872752"></script>
+	 <script type="text/javascript" src="rw_common/themes/lander/js/multithemes.js?rwcache=622872752"></script> 
 	 
 	<!-- User defined javascript -->
 	<link rel="alternate" type="application/rss+xml" title="Bingcheng's Notes" href="https://bingcheng.openmc.cn/notes/index_files/feed.xml" />
@@ -86,14 +86,18 @@
  <div id="global_width">	 	
 	 <div id="contentContainer"><!-- Start main content wrapper -->
 		 <div id="content"><!-- Start content -->
-		   <div id="unique-entry-id-0" class="blog-entry"><h1 class="blog-entry-title"><a href="index_files/Bias-regularization.html" class="blog-permalink">Bias regularization</a></h1><div class="blog-entry-date">27/09/20 08:32 </div><div class="blog-entry-body">It is not common to regularize the bias parameters because they do not interact with the data through multiplicative interactions, and therefore do not have the interpretation of controlling the influence of a data dimension on the final objective.<span class="blog-read-more"><a href="index_files/Bias-regularization.html"> Read More…</a></span></div></div>
+		   <div id="unique-entry-id-2" class="blog-entry"><h1 class="blog-entry-title"><a href="index_files/4a7dc00e96993d57c83ff6a530abff37-2.html" class="blog-permalink">Caution! max(0, -) in back prop</a></h1><div class="blog-entry-date">27/09/20 11:49 Filed in: <span class="blog-entry-category"><a href="index_files/category-machine-learning.html">Machine Learning</a></span></div><div class="blog-entry-body"><span style="font-size:16px; color:#000000;">For ReLU gate, we use </span><code>max(0, -)</code><span style="font-size:16px; color:#000000;"> to get our data all positive and will not cause saturation, which is very convenient to use.However, in back propagation, there is one point that could easily be ignored: we should set </span><code>dx[x<=0] = 0</code><span style="font-size:16px; color:#000000;"> instead of </span><code>dx[x<0] = 0</code><span style="font-size:16px; color:#000000;">!</span><span class="blog-read-more"><a href="index_files/4a7dc00e96993d57c83ff6a530abff37-2.html"> Read More…</a></span><p class="blog-entry-tags">Tags: <a href="index_files/tag-back-propagation.html" title="back propagation" rel="tag">back propagation</a>, <a href="index_files/tag-relu.html" title="ReLU" rel="tag">ReLU</a></p></div></div><div id="unique-entry-id-0" class="blog-entry"><h1 class="blog-entry-title"><a href="index_files/Bias-regularization.html" class="blog-permalink">Bias regularization</a></h1><div class="blog-entry-date">27/09/20 08:32 Filed in: <span class="blog-entry-category"><a href="index_files/category-machine-learning.html">Machine Learning</a></span></div><div class="blog-entry-body">It is not common to regularize the bias parameters because they do not interact with the data through multiplicative interactions, and therefore do not have the interpretation of controlling the influence of a data dimension on the final objective.<span class="blog-read-more"><a href="index_files/Bias-regularization.html"> Read More…</a></span><p class="blog-entry-tags">Tags: <a href="index_files/tag-regularization.html" title="regularization" rel="tag">regularization</a></p></div></div>
 		 </div><!-- End content -->
 	 </div><!-- End main content wrapper -->
   <div id="sidebarBackground"></div>
 <div id="sidebarContainer"><!-- Start Sidebar wrapper -->
   <div class="sideHeader"></div><!-- Sidebar header -->
 	 <div id="sidebar"><!-- Start sidebar content -->
-	 <div id="blog-categories"></div><div id="blog-archives"><a class="blog-archive-link-enabled" href="index_files/archive-september-2020.html">September 2020</a><br /></div><div id="blog-rss-feeds"><a class="blog-rss-link" href="index_files/feed.xml" rel="alternate" type="application/rss+xml" title="Bingcheng's Notes">Bingcheng's Notes</a><br /></div> <!-- sidebar content such as the blog archive links -->
+	 <div id="blog-categories"><a href="index_files/category-machine-learning.html" class="blog-category-link-enabled">Machine Learning (2)</a><br /></div><div id="blog-archives"><a class="blog-archive-link-enabled" href="index_files/archive-september-2020.html">September 2020</a><br /></div><ul class="blog-tag-cloud"><li><a href="index_files/tag-back-propagation.html" title="back propagation" class="blog-tag-size-11" rel="tag">back propagation</a></li>
+<li><a href="index_files/tag-regularization.html" title="regularization" class="blog-tag-size-10" rel="tag">regularization</a></li>
+<li><a href="index_files/tag-relu.html" title="ReLU" class="blog-tag-size-9" rel="tag">ReLU</a></li>
+</ul>
+<div id="blog-rss-feeds"><a class="blog-rss-link" href="index_files/feed.xml" rel="alternate" type="application/rss+xml" title="Bingcheng's Notes">Bingcheng's Notes</a><br /></div> <!-- sidebar content such as the blog archive links -->
 	 <div class="clearer"></div>
 		<!-- sidebar content you enter in the page inspector -->		
      </div><!-- End sidebar content -->
