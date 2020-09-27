@@ -2,29 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://bingcheng.openmc.cn/notes/index.html</loc>
+		<lastmod>2020-09-27</lastmod>
 	</url>
 	<url>
 		<loc>https://bingcheng.openmc.cn/notes/index_files/4a7dc00e96993d57c83ff6a530abff37-2.html</loc>
+		<lastmod>2020-09-27</lastmod>
 	</url>
 	<url>
 		<loc>https://bingcheng.openmc.cn/notes/index_files/Bias-regularization.html</loc>
+		<lastmod>2020-09-27</lastmod>
 	</url>
 	<url>
 		<loc>https://bingcheng.openmc.cn/notes/index_files/archive-september-2020.html</loc>
+		<lastmod>2020-09-27</lastmod>
 	</url>
 	<url>
 		<loc>https://bingcheng.openmc.cn/notes/index_files/category-machine-learning.html</loc>
+		<lastmod>2020-09-27</lastmod>
 	</url>
 	<url>
 		<loc>https://bingcheng.openmc.cn/notes/index_files/tag-back-propagation.html</loc>
+		<lastmod>2020-09-27</lastmod>
 	</url>
 	<url>
 		<loc>https://bingcheng.openmc.cn/notes/index_files/tag-regularization.html</loc>
+		<lastmod>2020-09-27</lastmod>
 	</url>
 	<url>
 		<loc>https://bingcheng.openmc.cn/notes/index_files/tag-relu.html</loc>
+		<lastmod>2020-09-27</lastmod>
 	</url>
 	<url>
 		<loc>https://bingcheng.openmc.cn/notes/zh/index.html</loc>
+		<lastmod>2020-09-27</lastmod>
+	</url>
+	<url>
+		<loc>https://bingcheng.openmc.cn/notes/zh/files/archive-september-2020.html</loc>
+		<lastmod>2020-09-27</lastmod>
 	</url>
 </urlset>
